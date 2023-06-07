@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <body>
+        <head>
+            <meta charset="UTF-8">
+            <title>회원가입</title>
+            <link rel="stylesheet" href="Style.css" type="text/css">
+        </head>
+
+        <header class='form-header' align="center">
+            <h1>회 원 가 입 페 이 지</h1>
+            <p>Create a New Accout</p>         
+        </header>
+
+        <form class='form-row'>
+            <body>
+                
+            <div align="center">
+
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA0MThfMTA0%2FMDAxNjUwMjUxMzgyNDgz.0kzDy6VwmgsisrZrCQGNjuEpETxo9BmscQ9mAGHjSfwg.m_krIML2EK4to8q4QiT64VRHHadfOrzySf5Y4ZtuFIYg.JPEG.yeoldo_dal%2F%25C1%25F5%25BB%25E7-1.jpg&type=a340" alt="강아지" width="150">
+            
+                <br><br><br><br><br>
+
+            <table class="tg" border="1" width="800" id="table5">
+                <tr>
+                    <th><label for="full-name">이 름</label></th>
+                    <td class="td-left"><input id='full-name' name='full-name' type='text' placeholder="이름을 입력해주세요"></td>
+                </tr>
+                <tr>
+                    <th><p class="title">성 별</p></th>
+                    <td class="td-left">
+                        <span class="chk_gender" role="group"> 
+                        <input type="radio" id="gender_male" name="gender" value="M"/>
+                        <label for="gender_male">남성</label>
+                        <input type="radio" id="gender_female" name="gender" value="F" checked/>
+                        <label for="gender_female">여성</label>
+                        <label for="gender_undefined" style="display:none;">
+                        </label>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="reg_birth_year">생년월일 (양력)</label></th>
+                    <td class="td-left">
+                        <div class="ipt">
+                            <span class="slct_box"> 
+                                <select id="reg_birth_year" name="reg_birth_year">
+                                    <option>년</option>
+                                    <option>1991</option>
+                                    <option>1992</option>
+                                    <option>1993</option>
+                                    <option>1994</option>
+                                    <option>1995</option>
+                                    <option>1996</option>
+                                    <option>1997</option>
+                                    <option>1998</option>
+                                    <option>1999</option>
+                                    <option>2000</option>
+                                    <option>2001</option>
+                                    <option>2002</option>
+                                    <option>2003</option>
+                                    <option>2004</option>
+                                    <option>2005</option>
+                                    <option>2006</option>
+                                </select>
+                                <select id="reg_birth_month" name="reg_birth_month">
+                                    <option>월</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                </select>
+                                <select id="reg_birth_day" name="reg_birth_day">
+                                    <option>일</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                    <option>15</option>
+                                    <option>16</option>
+                                    <option>17</option>
+                                    <option>18</option>
+                                    <option>19</option>
+                                    <option>20</option>
+                                    <option>21</option>
+                                    <option>22</option>
+                                    <option>23</option>
+                                    <option>24</option>
+                                    <option>25</option>
+                                    <option>26</option>
+                                    <option>27</option>
+                                    <option>28</option>
+                                    <option>29</option>
+                                    <option>30</option>
+                                    <option>31</option>
+                                </select>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th><label for="reg_birth_year">생년월일 (음력)</label></th>
+                    <td class="td-left">
+                    <div class="ipt">
+                        <span class="slct_box"> 
+                            <select id="reg_birth_year" name="reg_birth_year">
+                                <option>년</option>
+                                <option>1991</option>
+                                <option>1992</option>
+                                <option>1993</option>
+                                <option>1994</option>
+                                <option>1995</option>
+                                <option>1996</option>
+                                <option>1997</option>
+                                <option>1998</option>
+                                <option>1999</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                <option>2004</option>
+                                <option>2005</option>
+                                <option>2006</option>
+                            </select>
+                            <select id="reg_birth_month" name="reg_birth_month">
+                                <option>월</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                            <select id="reg_birth_day" name="reg_birth_day">
+                                <option>일</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+                        </span>
+                    </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="how old">나 이</label></th>
+                    <td class="td-left">
+                        <span class="slct_box"> 
+                            <select id="how old" name="how old">
+                                <option></option>
+                                <option>33</option>
+                                <option>32</option>
+                                <option>31</option>
+                                <option>30</option>
+                                <option>29</option>
+                                <option>28</option>
+                                <option>27</option>
+                                <option>26</option>
+                                <option>25</option>
+                                <option>24</option>
+                                <option>23</option>
+                                <option>22</option>
+                                <option>21</option>
+                                <option>20</option>
+                                <option>19</option>
+                                <option>18</option>
+                                </optgroup>
+                            </select>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for='full-address'>주 소</label></th>
+                    <td class="td-left"><input id='full-address' name='full-address' type='text'/></td>
+                </tr>
+                <tr>
+                    <th><p class="title">가입이유</p></th>
+                    <td class="td-left">
+                        <span class="reason" role="group"> 
+                            <input type="radio" id="reason1" name="check_reason" value="1"/>
+                            <label for="reason1">개인업무</label>
+                            <input type="radio" id="reason2" name="check_reason" value="2"/>
+                            <label for="reason2">회사업무</label>
+                            <input type="radio" id="reason3" name="check_reason" value="3"/>
+                            <label for="reason3">학교업무</label>
+                            <input type="radio" id="reason4" name="check_reason" value="4"/>
+                            <label for="reason4">기 타</label>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+            </div>
+
+            <br><br>    
+            <div align="center">
+                <label class='checkbox-label' for='available'>
+                    <input id='available'
+                           name='available'
+                           type='checkbox'
+                           value='is-available'/>
+                    <span>I’m sactually not a ROBOT</span>
+                </label>
+            </div>
+            <br>
+            <div align="center">
+                <button>회 원 가 입</button>
+            </div>
+
+
+        </form>
+   
+        <br><br><br><br><br><br><br>
+    <footer>
+        빅데이터과 2302583 이하영
+    </footer>
+</body>
+
+</html>
+

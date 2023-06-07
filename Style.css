@@ -1,0 +1,172 @@
+.td-header {border-color:gray}
+.td-left {text-align: left}
+
+/*
+table {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+.table_none {
+    border: 0px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid; padding: 10px 5px;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+th {
+    border: 1px solid; padding: 10px 5px;
+    background-color: rgb(195, 207, 243);
+}
+*/
+
+body {
+    align-items: center
+}
+
+footer {
+    position: relative;
+    transform : translateY(-100%);
+    
+    border-top: 1px solid gray;
+    font-size: 15x;
+    text-align: right
+}
+
+ul {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+}
+
+
+li {
+    list-style: none;
+    text-align: center;
+    width: 25%;
+     line-height: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+    border-top-left-radius:10px; border-top-right-radius:10px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    cursor:all-scroll;
+}
+
+.a-none{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#table1 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(232, 196, 196);
+}
+
+#table1 td {
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(237, 216, 216);
+}
+
+#table2 {
+    background-color: rgb(231, 230, 180);
+}
+
+#table2 th {
+    font-size: 18px;
+     text-shadow: 5px 5px 5px black;
+}
+
+#table2 td {
+    font-size: 15px;
+    background-color: rgb(238, 234, 211);
+}
+
+#table3 {
+    .font_arial { font-family: Arial;}
+    .font_roman { font-family: 'Times New Roman'; }
+    background-image: url('다운로드 (1).jpg');
+}
+
+
+#table3 th {
+    font-size: 18px;
+}
+
+#table3 td {
+    font-size: 15px;
+    background-color: rgb(233, 242, 245);
+}
+
+
+#table4 {
+    font-size: 18px;
+    background-image: url('다운로드 (2).jpg');
+}
+
+#table4 th {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#table4 td {
+    font-size: 15px;
+}
+
+
+
+#table5 {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+.table_none {
+    border: 0px;
+    border-collapse: collapse;
+}
+
+#table5 th, td {
+    border: 1px solid; padding: 10px 5px;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+#table5 th {
+    border: 1px solid; padding: 10px 5px;
+    background-color: rgb(195, 207, 243);
+}
+
+#table5 td {
+    background-color: rgb(213, 218, 235);
+}
+
+input:hover {
+    background-color: #333333; 
+    color: #cccccc;
+    cursor:all-scroll;
+}
+input::placeholder {
+    color: #cccccc;
+}
+
+/* label:hover {
+    color: red;
+} */
